@@ -1,0 +1,18 @@
+[
+  {
+    "model": "myapp.category",
+    "pk": 1,
+    "fields": {
+      "name": "Category 1",
+      "description": "Description 1"
+    }
+  },
+  {
+    "model": "myapp.category",
+    "pk": 2,
+    "fields": {
+      "name": "Category 2",
+      "description": "Description 2"
+    }
+  }
+]
