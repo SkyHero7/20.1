@@ -1,5 +1,6 @@
 from django.core.management.base import BaseCommand
-from django.db import transaction, TransactionManagementError
+from django.db import transaction
+from django.db.transaction import TransactionManagementError
 from myapp.models import Category, Product
 
 
